@@ -10,7 +10,7 @@ body {
 
 /* Hero Section Styling */
 .hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(rgba(0, 83, 60, 0.7), rgba(0, 83, 60, 0.7)),
                 url('assets/images/hero-bg.jpg') no-repeat center center/cover;
     height: 100vh; /* Full viewport height */
     min-height: 600px;
