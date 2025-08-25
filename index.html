@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", >
     <meta name="description" content="RMS AI provides AI-powered electrical engineering services, including predictive maintenance, smart grid optimization, and energy analytics.">
     <title>RMS AI-Powered Sustainable Electrical Engineering Services</title>
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Link to your custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- Favicon (replace with your own) -->
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 </head>
 <body>
@@ -18,6 +18,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
+                <!-- Custom SVG Logo -->
+                <svg xmlns="assets/images/RMS_Logo_2025_Final-01 2.svg" width="28" height="28" fill="currentColor" class="bi bi-lightning-charge-fill me-2" viewBox="0 0 16 16">
+                    <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+                </svg>
                 <strong>RMS AI-Powered Sustainable Electrical Engineering Services</strong>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -32,10 +36,10 @@
                         <a class="nav-link" href="index.html#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a> <!-- Changed to about.html -->
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a> <!-- Changed to contact.html -->
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -47,9 +51,9 @@
         <div class="container text-white">
             <div class="row">
                 <div class="col-lg-7">
-                    <h1 class="display-4 fw-bold mb-4">Intelligent Power Systems. Engineered by AI.</h1>
-                    <p class="lead mb-5">RMS AI leverages cutting-edge artificial intelligence to design, optimize, and predict the future of electrical systems. Unleash efficiency, reliability, and innovation.</p>
-                    <a href="contact.html" class="btn btn-primary btn-lg px-4 py-2 me-2">Get a Free Consultation</a> <!-- Changed to contact.html -->
+                    <h1 class="display-4 fw-bold mb-4">Intelligent Power. Engineered Sustainably.</h1> <!-- Updated Text -->
+                    <p class="lead mb-5">RMS AI leverages cutting-edge artificial intelligence to design, optimize, and predict the future of electrical systems. We build solutions that are not only smarter and more reliable but also drive efficiency and a greener future.</p> <!-- Updated Text -->
+                    <a href="contact.html" class="btn btn-primary btn-lg px-4 py-2 me-2">Get a Free Consultation</a>
                     <a href="#services" class="btn btn-outline-light btn-lg px-4 py-2">Our Services</a>
                 </div>
             </div>
@@ -57,17 +61,17 @@
     </section>
 
     <!-- Services Preview Section -->
-    <section id="services" class="py-5 bg-light"> <!-- Added id="services" for navigation -->
+    <section id="services" class="py-5 bg-light">
         <div class="container py-5">
             <div class="row text-center mb-5">
                 <div class="col">
                     <h2>Our AI-Driven Services</h2>
-                    <p class="lead">Transforming the electrical engineering landscape.</p>
+                    <p class="lead">Transforming the electrical engineering landscape with a focus on sustainability.</p> <!-- Updated Text -->
                 </div>
             </div>
             <div class="row">
                 <!-- Service 1 -->
-                <div class="col-md-4 mb-4">
+                <div class="col-md-6 col-lg-3 mb-4"> <!-- Changed column sizing -->
                     <div class="card h-100 shadow">
                         <div class="card-body">
                             <h5 class="card-title">Predictive Maintenance</h5>
@@ -76,7 +80,7 @@
                     </div>
                 </div>
                 <!-- Service 2 -->
-                <div class="col-md-4 mb-4">
+                <div class="col-md-6 col-lg-3 mb-4"> <!-- Changed column sizing -->
                     <div class="card h-100 shadow">
                         <div class="card-body">
                             <h5 class="card-title">Smart Grid Optimization</h5>
@@ -84,8 +88,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- Service 3 -->
-                <div class="col-md-4 mb-4">
+                <!-- Service 3: NEW Sustainable Service -->
+                <div class="col-md-6 col-lg-3 mb-4"> <!-- Changed column sizing -->
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Sustainable Design</h5> <!-- New Card -->
+                            <p class="card-text">AI-driven life-cycle analysis and design optimization to minimize environmental impact and maximize energy efficiency from the ground up.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Service 4 -->
+                <div class="col-md-6 col-lg-3 mb-4"> <!-- Changed column sizing -->
                     <div class="card h-100 shadow">
                         <div class="card-body">
                             <h5 class="card-title">Energy Analytics</h5>
@@ -97,14 +110,35 @@
         </div>
     </section>
 
+    <!-- Sustainability Spotlight Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="assets/images/sustainability.jpg" alt="Renewable energy and sustainable technology" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="mb-4">Committed to a Green Future</h2>
+                    <p>Sustainability isn't an add-on; it's integrated into every solution we build. Our AI models are specifically tuned to:</p>
+                    <ul>
+                        <li><strong>Reduce Energy Waste:</strong> Identify and eliminate inefficiencies across entire systems.</li>
+                        <li><strong>Maximize Renewable Integration:</strong> Seamlessly incorporate solar, wind, and other renewables into existing grids.</li>
+                        <li><strong>Optimize for Life-Cycle Impact:</strong> Ensure projects are not only efficient in operation but also in their entire lifecycle.</li>
+                    </ul>
+                    <a href="about.html" class="btn btn-outline-primary mt-3">Learn About Our Mission</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Placeholder Contact CTA Section -->
-    <section id="contact" class="py-5"> <!-- Added id="contact" for navigation -->
+    <section id="contact" class="py-5 bg-light">
         <div class="container">
             <div class="row text-center py-4">
                 <div class="col-lg-8 mx-auto">
-                    <h2>Ready to Transform Your Electrical Systems?</h2>
-                    <p class="lead mb-4">Contact us for a free, no-obligation consultation to discuss your specific challenges and how our AI solutions can help.</p>
-                    <a href="contact.html" class="btn btn-primary btn-lg">Contact Us Today</a> <!-- Changed to contact.html -->
+                    <h2>Build a Smarter, Greener System</h2>
+                    <p class="lead mb-4">Contact us for a free consultation on how AI can drive efficiency and sustainability for your project.</p>
+                    <a href="contact.html" class="btn btn-primary btn-lg">Contact Us Today</a>
                 </div>
             </div>
         </div>
@@ -113,7 +147,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
-            <p>&copy; 2025 RMS AI. All rights reserved.</p>
+            <p>&copy; 2025 RMS AI. Intelligent. Efficient. Sustainable.</p> <!-- Updated Tagline -->
         </div>
     </footer>
 

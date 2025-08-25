@@ -13,10 +13,13 @@
 </head>
 <body>
 
-    <!-- Navigation Bar (Same as index.html) -->
+    <!-- Navigation Bar (Consistent with index.html) -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"> <!-- Link back to homepage -->
+            <a class="navbar-brand" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-lightning-charge-fill me-2" viewBox="0 0 16 16">
+                    <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+                </svg>
                 <strong>RMS AI-Powered Sustainable Electrical Engineering Services</strong>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -25,13 +28,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a> <!-- Link back to homepage -->
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">Services</a> <!-- Link to section on homepage -->
+                        <a class="nav-link" href="index.html#services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About</a> <!-- This page is active -->
+                        <a class="nav-link active" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -42,12 +45,12 @@
     </nav>
 
     <!-- Page Header/Banner -->
-    <section class="py-5 mt-5" style="background-color: #f8f9fa;">
-        <div class="container py-4">
+    <section class="page-header-banner"> <!-- Using the new class from style.css -->
+        <div class="container py-5 mt-5">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>About RMS AI</h1>
-                    <p class="lead">Pioneering the fusion of electrical engineering and artificial intelligence.</p>
+                    <p class="lead">Pioneering the fusion of AI and electrical engineering for a sustainable future.</p> <!-- Updated Text -->
                 </div>
             </div>
         </div>
@@ -59,11 +62,11 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h2 class="mb-4">Our Mission</h2>
-                    <p>At RMS AI, our mission is to empower the energy and electrical sectors with intelligent, data-driven solutions. We believe that the future of infrastructure is predictive, efficient, and self-healing.</p>
-                    <p>By harnessing the power of machine learning and deep domain expertise, we solve complex challenges in power systems, grid management, and industrial electrical efficiency that were previously impossible to tackle.</p>
+                    <p>At RMS AI, our mission is to empower the energy and electrical sectors with intelligent, data-driven solutions that are not only innovative but also fundamentally sustainable.</p> <!-- Updated Text -->
+                    <p>We believe that the future of infrastructure is predictive, efficient, and self-healing. By harnessing the power of machine learning and deep domain expertise, we solve complex challenges in power systems and grid management, directly contributing to reduced energy waste and a lower carbon footprint.</p> <!-- Updated Text -->
                 </div>
                 <div class="col-lg-6">
-                    <img src="assets/images/about-mission.jpg" alt="Abstract representation of AI and data fusion" class="img-fluid rounded shadow">
+                    <img src="assets/images/about-mission.jpg" alt="Abstract representation of AI, data, and sustainability" class="img-fluid rounded shadow">
                 </div>
             </div>
         </div>
@@ -75,7 +78,7 @@
             <div class="row text-center mb-5">
                 <div class="col">
                     <h2>Our Leadership</h2>
-                    <p class="lead">Expert in Electrical Engineering and AI.</p>
+                    <p class="lead">Expert in AI, Electrical Engineering, and Sustainable Design.</p> <!-- Updated Text -->
                 </div>
             </div>
             <div class="row justify-content-center">
@@ -84,14 +87,14 @@
                     <div class="card h-100 border-0 shadow">
                         <img src="assets/images/team-ceo.jpg" class="card-img-top" alt="Dr. Sarah Chen, CEO">
                         <div class="card-body">
-                            <h5 class="card-title">Engr. Ren Christian M. Santos</h5>
+                            <h5 class="card-title">Ren Christian M. Santos, PEE, MSc.</h5>
                             <p class="text-muted">Founder</p>
-                            <p class="card-text">Professional Electrical Engineeer and MSc in Data Science, ~20 years in low-voltage to high-voltage power systems. Visionary behind the RMS AI platform.</p>
+                            <p class="card-text">Professional Electrical Engineeer (PEE) and Data Scientist, ~20 years in low-voltage to high-voltage power systems. Visionary behind the RMS AI platform.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Team Member 2 -->
-                <!--<div class="col-md-4 mb-4 text-center">
+                <!-- Team Member 2 
+                <div class="col-md-4 mb-4 text-center">
                     <div class="card h-100 border-0 shadow">
                         <img src="assets/images/team-cto.jpg" class="card-img-top" alt="Michael Rodriguez, CTO">
                         <div class="card-body">
@@ -100,8 +103,18 @@
                             <p class="card-text">Former Smart Grid Architect. Expert in IoT sensor networks and deploying AI models in critical infrastructure.</p>
                         </div>
                     </div>
-                -->
-				</div>
+                </div>
+                <!-- Team Member 3: New Sustainability Lead
+                <div class="col-md-4 mb-4 text-center">
+                    <div class="card h-100 border-0 shadow">
+                        <img src="assets/images/team-sustainability.jpg" class="card-img-top" alt="Dr. Aris Thorne, Head of Sustainability">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Aris Thorne</h5>
+                            <p class="text-muted">Head of Sustainability</p>
+                            <p class="card-text">Ph.D. in Environmental Engineering. Leads our initiatives in life-cycle analysis and green technology integration.</p>
+                        </div>
+                    </div>
+                </div>-->
             </div>
         </div>
     </section>
@@ -115,29 +128,34 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 mb-4 text-center">
+                <div class="col-md-3 mb-4 text-center"> <!-- Changed to col-md-3 for 4 items -->
                     <div class="mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0062cc" class="bi bi-lightbulb" viewBox="0 0 16 16"><path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/></svg></div>
                     <h5>Innovation</h5>
-                    <p>We push the boundaries of what's possible, constantly exploring new applications for AI in the physical world.</p>
+                    <p>We push the boundaries of what's possible, exploring new AI applications for the physical world.</p>
                 </div>
-                <div class="col-md-4 mb-4 text-center">
+                <div class="col-md-3 mb-4 text-center">
                     <div class="mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0062cc" class="bi bi-shield-check" viewBox="0 0 16 16"><path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.73 10.73 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.566-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56z"/><path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/></svg></div>
                     <h5>Reliability</h5>
-                    <p>Our solutions are built on robust engineering principles to ensure safety and uptime in critical environments.</p>
+                    <p>Our solutions are built on robust engineering principles to ensure safety and uptime.</p>
                 </div>
-                <div class="col-md-4 mb-4 text-center">
+                <div class="col-md-3 mb-4 text-center">
+                    <div class="mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#28a745" class="bi bi-tree-fill" viewBox="0 0 16 16"> <!-- New Green Icon --><path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5z"/></svg></div>
+                    <h5>Sustainability</h5> <!-- New Value -->
+                    <p>We are committed to developing solutions that reduce environmental impact and promote a circular economy.</p>
+                </div>
+                <div class="col-md-3 mb-4 text-center">
                     <div class="mb-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#0062cc" class="bi bi-graph-up" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M0 0h1v15h15v1H0zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07z"/></svg></div>
                     <h5>Impact</h5>
-                    <p>We measure our success by the tangible value we deliver: reduced costs, increased efficiency, and a sustainable future.</p>
+                    <p>We measure success by the tangible value we deliver: reduced costs, increased efficiency, and a sustainable future.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer (Same as index.html) -->
+    <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
-            <p>&copy; 2025 RMS AI. All rights reserved.</p>
+            <p>&copy; 2025 RMS AI. Intelligent. Efficient. Sustainable.</p> <!-- Updated Tagline -->
         </div>
     </footer>
 

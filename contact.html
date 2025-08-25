@@ -17,6 +17,9 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-lightning-charge-fill me-2" viewBox="0 0 16 16">
+                    <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09z"/>
+                </svg>
                 <strong>RMS AI-Powered Sustainable Electrical Engineering Services</strong>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -34,7 +37,7 @@
                         <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact</a> <!-- This page is active -->
+                        <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -42,8 +45,8 @@
     </nav>
 
     <!-- Page Header/Banner -->
-    <section class="py-5 mt-5" style="background-color: #f8f9fa;">
-        <div class="container py-4">
+    <section class="page-header-banner">
+        <div class="container py-5 mt-5">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1>Contact Us</h1>
@@ -60,8 +63,8 @@
                 <!-- Contact Form -->
                 <div class="col-lg-8 mb-5 mb-lg-0">
                     <h3 class="mb-4">Send us a Message</h3>
-                    <!-- Netlify Form Setup: Add "netlify" attribute and hidden bot field -->
-                    <form name="contact" netlify netlify-honeypot="bot-field" action="/thank-you.html" method="POST">
+                    <!-- Form action is correctly set to thank-you.html -->
+                    <form name="contact" netlify netlify-honeypot="bot-field" action="thank-you.html" method="POST">
                         <input type="hidden" name="form-name" value="contact" />
                         <p class="hidden">
                             <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
@@ -86,6 +89,7 @@
                                 <option selected>Select a service...</option>
                                 <option value="predictive-maintenance">Predictive Maintenance</option>
                                 <option value="smart-grid">Smart Grid Optimization</option>
+                                <option value="sustainable-design">Sustainable Design</option>
                                 <option value="energy-analytics">Energy Analytics</option>
                                 <option value="other">Other</option>
                             </select>
@@ -133,7 +137,7 @@
                     </ul>
                     <hr>
                     <h5 class="mt-4">Business Hours</h5>
-                    <p>Monday - Friday: 8:00 AM - 5:00 PM PH Time<br>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM PH Time<br>
                     Saturday & Sunday: Closed</p>
                 </div>
             </div>
@@ -145,7 +149,6 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <!-- Placeholder for a Google Map. You will need a Google Maps API key for a real one. -->
                     <div class="bg-secondary text-white text-center py-5">
                         <h5>Map Location</h5>
                         <p class="mb-0">[Interactive Map Would Be Here]</p>
@@ -159,7 +162,7 @@
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
-            <p>&copy; 2025 RMS AI. All rights reserved.</p>
+            <p>&copy; 2025 RMS AI. Intelligent. Efficient. Sustainable.</p>
         </div>
     </footer>
 
